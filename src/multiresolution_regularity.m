@@ -15,7 +15,7 @@ function entropy = multiresolution_regularity(signal, m, r, max_level, wavelet, 
 %                      (with the exception of D1 scale used for noise
 %                      estimation)
 %
-% e.g. entropy = wavelet_scale_regularity(rand(1024,1), 3, .2, 5, 'Daubechies', 4)
+% e.g. entropy = multiresolution_regularity(rand(1024,1), 3, .2, 5, 'Daubechies', 4)
 
 % spacing between pattern elements 
 lags = 2.^(max_level-(1:max_level)+1); 
